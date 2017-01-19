@@ -1,0 +1,89 @@
+[
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "IT",
+		"city" : "Orlando",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Florida",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	},
+	{
+		"category" : "Retail",
+		"city" : "Chicago",
+		"company" : "JumpXS",
+		"description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"email" : "jlab@gmail.com",
+		"phone" : "1-(414)-274-3262",
+		"state" : "Illinois",
+		"street_address" : "775 Oak St.",
+		"years_in_business" : "7",
+		"zipcode:" : "53543"
+	}
+
+
+
+]
