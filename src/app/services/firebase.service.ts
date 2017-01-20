@@ -13,7 +13,7 @@ export class FirebaseService {
 	}
 
 	getBusinesses(){
-		this.businesses = this.af.database.list('/businesses') as FirebaseListObservable<Business[]>
+		this.businesses = this.af.database.list('/business') as FirebaseListObservable<Business[]>
 		return this.businesses;
 	}
 
