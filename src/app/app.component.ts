@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   businesses: Business[];
   categories: Category[];
   appState: string;
+  activeKey: string;
 
   activeCompany: string;
   activeCategory: string;
@@ -28,7 +29,8 @@ export class AppComponent implements OnInit {
   
 
   constructor(private firebaseService: FirebaseService){
-  	this.appState = 'edit';
+  	this.appState = 'extend';
+  	this.activeKey = '0';
   }
 
   ngOnInit(){
@@ -38,11 +40,38 @@ export class AppComponent implements OnInit {
 
   	this.firebaseService.getBusinesses().subscribe(businesses => {
   		this.businesses = businesses
+  		console.log(businesses);
+
   	});
   }
 
-  addBusiness(){
+  addBusiness(
+  	company: string,
+  	category: string,
+  	years_in_business: number,
+  	description: string,
+  	phone: string,
+  	email: string,
+  	street_address: string,
+  	city: string,
+  	state: string,
+  	zipcode: string
+  	){
+  	let created_at = new Date().toString();
 
+  	let newBusiness = {
+  		company: company,
+  		category: category,
+  		years_in_business: years_in_business,
+  		description: description,
+  		phone: phone,
+  		email: email,
+  		street_address: street_address,
+  		city: city,
+  		state: state,
+  		zipcode: zipcode,
+  		create_at: created_at
+  	}
   }
 
   updateBusiness(){
