@@ -218,7 +218,7 @@
 <div *ngIf="appState  == 'extend'">
 	<div class="row">
 		<div class="large-12 large-1-offset columns">
-			<button class="button alert">Go Back</button>
+			<button class="button alert" (click)="changeState('default')">Go Back</button>
 		</div>
 	</div>
 
@@ -236,7 +236,7 @@
 					<h4>Contact Info</h4>
 					<ul>
 						<li>Phone: {{business.phone}}</li>
-						<li>Email: {{business.email</li>
+						<li>Email: {{business.email}}</li>
 						<li>Street: {{business.street_address}}</li>
 						<li>City: {{business.city}}</li>
 						<li>State: {{business.state}}</li>
@@ -268,9 +268,9 @@
 						<td>{{business.category}}</td>
 						<td>{{business.phone}}</td>
 						<td>
-							<button class="button">More</button>
-							<button class="button secondary">Edit</button>
-							<button class="button alert">Delete</button>
+							<button class="button" (click)="changeState('extend', business.$key)">More</button>
+							<button (click)="showEdit(business)" class="button secondary">Edit</button>
+							<button (click)="deleteBusiness(business.$key)" class="button alert">Delete</button>
 						</td>
 					</tr>
 				</tbody>
