@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
   
 
   constructor(private firebaseService: FirebaseService){
-  	this.appState = 'extend';
+  	this.appState = 'default';
   	this.activeKey = '0';
   }
 
@@ -43,6 +43,21 @@ export class AppComponent implements OnInit {
   		console.log(businesses);
 
   	});
+  }
+
+  changeState(state, key = null){
+  	if(key){
+  		this.activeKey = key;
+  	}
+  	this.appState = state;
+  }
+
+  filterCategory(category){
+  	
+  	this.firebaseService.getBusinesses(category).subscribe(businesses => {
+  		this.businesses = businesses
+  	
+  	})
   }
 
   addBusiness(

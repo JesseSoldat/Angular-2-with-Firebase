@@ -9,13 +9,13 @@
 <br>
 
 <!-- FILTER CATEGORY -->
-<div class="row">
+<div *ngIf="appState == 'default'" class="row">
 	<div class="large-6 columns">
-		<button class="button">Business</button>
+		<button class="button" (click)="changeState('add')">Add Business</button>
 	</div>
 	<div class="large-6 columns">
 		<label> Filter Category
-			<select>
+			<select (change)="filterCategory(filteredCategory.value)" #filteredCategory>
 				<option value="0">Select</option>
 				<option *ngFor="let category of categories" value="{{category.name}}">
 					{{category.name}}
