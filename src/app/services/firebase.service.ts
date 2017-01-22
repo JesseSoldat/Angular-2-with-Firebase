@@ -29,8 +29,11 @@ export class FirebaseService {
 
 	getCategories(){
 		this.categories = this.af.database.list('/categories') as FirebaseListObservable<Category[]>
-		return this.categories;
-		
+		return this.categories;	
+	}
+
+	addBusiness(newBusiness){
+		return this.businesses.push(newBusiness);
 	}
 }
 

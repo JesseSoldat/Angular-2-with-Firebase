@@ -87,6 +87,11 @@ export class AppComponent implements OnInit {
   		zipcode: zipcode,
   		create_at: created_at
   	}
+  	console.log(newBusiness)
+
+  	this.firebaseService.addBusiness(newBusiness);
+
+  	this.changeState('default');
   }
 
   updateBusiness(){
